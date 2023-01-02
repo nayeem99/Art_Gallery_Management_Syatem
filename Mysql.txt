@@ -1,0 +1,13 @@
+INSERT INTO `arts` (`id`, `type`, `price`, `input_date`) VALUES ('B-122', 'B', '500', DATE('2019-11-19'));
+
+
+
+person table:
+CREATE TABLE Persons (
+    personid int NOT NULL AUTO_INCREMENT,
+    name varchar(20) NOT NULL,
+    type  varchar(20),
+    age int(10),
+    price int(10),
+    PRIMARY KEY (personid)
+);
